@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        /* Pastikan body dan html mengambil tinggi penuh dari viewport */
+        html, body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Horizontally centers the card */
+            align-items: center; /* Vertically centers the card */
+            background-image: url('background.jpg');
+        }
+
+        /* Atur card dengan batasan ukuran maksimal */
+        .card {
+            max-width: 400px; /* Sesuaikan lebar maksimal card */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Hello, Xinyuan!!</h5>
+          <p class="card-text">Please choose the song you like.</p>
+          <a href="last_christmas.html" class="btn btn-primary mb-3">Wham! - Last Christmas</a>
+          <a href="#" class="btn btn-primary mb-3">Exo - The First Snow</a>
+          <a href="christmas_you.html" class="btn btn-primary mb-3">Mariah Carey - All I Want For Christmas Is You</a>
+        </div>
+    </div>
+</body>
+</html>
